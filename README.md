@@ -8,6 +8,7 @@ This script is created for sending SMS notification to a list of mobile phonenum
 * Installed Python3 (my version was 3.8 and all was working fine)
 * Bought minimum one number from Twilio and set up "FRIENDLY NAME" parameter to "SMS_notification" with minimum SMS capability
 * For demo account and test purposes add your real test phone number to **Phone Numbers >> Verified Caller IDs** list
+* Update ```recipient_list``` variable in **main.py** file with your valid mobile numbers
 
 # Script output
 If everything will work fine in the output you should see SMS on your mobile phone and message ID printed in console
