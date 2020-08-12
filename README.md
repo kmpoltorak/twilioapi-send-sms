@@ -1,5 +1,5 @@
 # Overview
-This script is created for sending SMS notification to a list of mobile phone numbers. Before sending the email script will verify if the nymber is correct.
+This script is created for sending SMS notification to a list of mobile phone numbers. Before sending the SMS script will verify if the number is correct.
 
 # Prerequirements
 * Twilio demo or normal account
