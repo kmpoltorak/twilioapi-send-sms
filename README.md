@@ -14,7 +14,7 @@ This script is created for sending SMS notification to a list of mobile phone nu
 If everything will work fine in the output you should see SMS on your mobile phone and message ID printed in console.
 
 # Good to know
-Twilio's 2010 APIs (those under api.twilio.com/2010-04-01/Accounts) respond as XML by default, but can also return JSON, CSV, and even HTML. (Note: Newer APIs of the form productname.twilio.com/v1 are only available as JSON responses). - https://www.twilio.com/docs/usage/troubleshooting/data-types
+Twilio's 2010 API (those under api.twilio.com/2010-04-01/Accounts) respond as XML by default, but can also return JSON, CSV, and even HTML. (Note: Newer APIs of the form productname.twilio.com/v1 are only available as JSON responses). - https://www.twilio.com/docs/usage/troubleshooting/data-types
 
 # Twilio API knowledge base
 https://www.twilio.com/docs/api
