@@ -1,4 +1,4 @@
-# Constants
+"""Constants"""
 
 # Twilio API account unique SID
 ACCOUNT_SID = 'PASTE_YOUR_TWILIO_ACCOUNT_SID_HERE'
