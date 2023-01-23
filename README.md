@@ -18,5 +18,4 @@ Twilio's 2010 API (those under api.twilio.com/2010-04-01/Accounts) respond as XM
 
 # Twilio API knowledge base
 https://www.twilio.com/docs/api
-
 https://www.twilio.com/docs/usage/api
