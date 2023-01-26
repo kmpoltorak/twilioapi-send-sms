@@ -3,12 +3,12 @@ This script is created for sending SMS notification to a list of mobile phone nu
 
 # Prerequirements
 * Twilio demo or normal account
-* Account SID and auth token copied from Twilio project dashboard into **credentials.py** file
+* Account SID and auth token copied from Twilio project dashboard into **config.json** file
 * Install all needed packages with: ```pip3 install -r requirements.txt```
-* Installed Python3 (my version was 3.8 and all was working fine)
+* Installed Python3
 * Bought minimum one number from Twilio and set up "FRIENDLY NAME" parameter to "SMS_notification" with minimum SMS capability
 * For demo account and test purposes add your real test phone number to **Phone Numbers >> Verified Caller IDs** list
-* Update ```recipient_list``` variable in **main.py** file with your valid mobile numbers
+* Update **recipients.txt** file with your valid mobile numbers in E.123 format (+[international-prefix][phone-number])
 
 # Script output
 If everything will work fine in the output you should see SMS on your mobile phone and message ID printed in console.

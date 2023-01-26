@@ -1,0 +1,10 @@
+{
+    "account": {
+        "sid": "PASTE_YOUR_TWILIO_ACCOUNT_SID_HERE",
+        "auth_token": "PASTE_YOUR_TWILIO_ACCOUNT_AUTH_TOKEN_HERE"
+    },
+    "data": {
+        "recipient_file": "recipients.txt",
+        "body_msg": "Test message sent by Python script using Twilio API."
+    }
+}
