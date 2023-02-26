@@ -24,9 +24,8 @@ def main():
 
     # Import config from JSON file
     try:
-        with open("config.json", encoding="utf-8") as file:
-            config = json.load(file)
-        file.close()
+        with open("config.json", encoding="utf-8") as f:
+            config = json.load(f)
 
     except FileNotFoundError:
         logging.error("Unable to read config file")
